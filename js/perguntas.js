@@ -1,18 +1,18 @@
 export const perguntas = [
     {
-        enunciado: "Você assiste gameplay de algum youtuber ?",
+        enunciado: "Qual time é o maior campeão brasileiro ?",
         alternativas: [
             {
-                texto: "Sim",
+                texto: "Palmeiras",
                 afirmacao: [
-                    "Ao assistir, ele está sendo um inútil"
+                    "Correto"
                     ],
                 proxima: 1,
             },
             {
-                texto: "Não",
+                texto: "Corinthians",
                 afirmacao: [
-                    "Ao não assistir, ele está sendo produtivo em porcaria nenhuma"
+                    "Incorreto"
                     ],
                 proxima: 1, 
             },
@@ -20,19 +20,19 @@ export const perguntas = [
     },
     
     {
-        enunciado: "Você gosta de jogar jogos de terror ?",
+        enunciado: "Qual time possui mais títulos da copa do Brasil?",
         alternativas: [
             {
-                texto:"Sim",
+                texto:"Palmeiras",
                 afirmacao: [
-                    " e que ao gostar de jogo de terror ele não tem medo. "
+                    " Incorreto "
                     ],
                 proxima: 2, 
             },
             {
-                texto: "Não, tenho medo",
+                texto: "Cruzeiro",
                 afirmacao: [
-                    " e que ao gostar de jogo de terror ele tem medo. "
+                    " Correto. "
                     ],
                 proxima: 2, 
             },
@@ -40,19 +40,19 @@ export const perguntas = [
     },
     
     {
-        enunciado: "Você prefere que tipo de plataforma ?",
+        enunciado: "Palmeiras tem mundial ?",
         alternativas: [
             {
-                texto:"Consoles",
+                texto:"Sim",
                 afirmacao: [
-                    "Quando ele escolhe console ele mostra o quão burro ele é,"
+                    "Incorreto."
                     ],
                 proxima: 3, 
             },
             {
-                texto:"Computador",
+                texto:"Não",
                 afirmacao: [
-                    "Quando ele escolhe PC ele mostra o quão sábio ele é, "
+                    "Correto, não possui. , "
                 ],
                 proxima: 3, 
             },
@@ -60,19 +60,19 @@ export const perguntas = [
     },
     
     {
-        enunciado: "Você acha justo o preço cobrados nos jogos ?",
+        enunciado: "Qual time foi campeão brasileiro em 2019 ?",
         alternativas: [
             {
-                texto: "Sim",
+                texto: "Flamengo",
                 afirmacao: [
-                    "e que quando ele acha o preço dos jogos justo, ele mostra o quão burro financeiramente é"
+                    "Correto, foi a equipe campeã invicta"
                     ],
                 proxima: 4, 
             },
             {
-                texto: "Não, eu sou inteligente",
+                texto: "Botafogo",
                 afirmacao: [
-                    "e que quando ele acha o preço dos jogos justo, ele mostra o quão burro financeiramente é"
+                    "Incorreta."
                 ],
                 proxima: 4, 
             },     
@@ -80,19 +80,19 @@ export const perguntas = [
     },
     
     {
-        enunciado: "Você é a favor da pirataria ?",
+        enunciado: "Qual time possui mais libertdores?",
         alternativas: [
             {
-                texto: "Sim",
+                texto: "São Paulo",
                 afirmacao: [
-                    ". O cara lembrou que mora no Brasil "
+                    " Correto, possui 3 títulos. "
                     ],
                 proxima: 5, 
             },
             {
-                texto: "Não, eu sou um bosta",
+                texto: "Internacional",
                 afirmacao: [
-                    ". O cara esqueceu que mora no Brasil "
+                    "Incorreto, possui 2 títulos."
                     ],
                 proxima: 5, 
             },
@@ -100,18 +100,18 @@ export const perguntas = [
     },
     
     {
-        enunciado: "Você gostaria de trabalhar com a programação de jogos ?",
+        enunciado: "Qual time tem o maior número de rebaixamento pra série B?",
         alternativas: [
             {
-                texto: "Sim",
+                texto: "Coritiba",
                 afirmacao: [
-                    " mal sabia ele(a) que irá passar fome"
+                    "Correto, possui 7 rebaixamentos"
                     ]
             },
             {
-                texto: "Não",
+                texto: "Athletico Paranaense",
                 afirmacao: [
-                    " mal sabia ele que escapou da fome, amém !"
+                    "Incorreto, possui apenas 3 rebaixamentos"
                     ] 
             },   
         ]
